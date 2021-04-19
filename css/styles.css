@@ -9,4 +9,81 @@ box-sizing: inherit;
 
 body {
     background-color: beige;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h5 {
+    font-family: 'Volkhov', serif;
+}
+
+.quiz-container {
+    position: relative;
+    max-width: 800px;
+    height: 400px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.question-wrapper {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: none;
+    height: 200px;
+}
+
+.active-question {
+    display: block;
+}
+
+.question {
+    width: 550px;
+    font-size: 32px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.answers {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.buttons {
+    width: 100px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+#next, #submit, #reset {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#next:hover, #submit:hover, #reset:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.results {
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    font-size: 150px;
+}
+
+.time {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#tracker {
+    text-align: right;
+    margin-right: 20px;
 }
