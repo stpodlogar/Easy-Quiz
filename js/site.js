@@ -13,7 +13,7 @@ const myQuestions = [
     {
       question: "Which color is not one of the five colors in the Olympic Rings?",
       answers: {
-        a: "Orange",
+        a: "Pink",
         b: "Blue",
         c: "Black",
       },
