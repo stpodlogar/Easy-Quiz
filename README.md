@@ -1,1 +1,3 @@
-# I399_Project3_stpodlog
+# Easy Quiz
+
+A simple quiz written with JS.
